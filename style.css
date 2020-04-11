@@ -1,0 +1,21 @@
+body {
+  background-image: url("slider2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+div {
+  width: 900px;
+  height: 800px;
+  border: 1px solid green;
+  margin: 10px;
+  background-repeat: repeat-y;
+  background-size: 50% 50%;
+  float: right;
+  background-color: white;
+  overflow: scroll;
+}
+
+p, h1{
+  text-align: right;
+}
